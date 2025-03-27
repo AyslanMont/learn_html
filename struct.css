@@ -1,0 +1,9 @@
+:root {
+    --theme-color: #226DAA;
+
+}
+
+body {
+    height: 100vh;
+    background-color: var(--theme-color);
+}
