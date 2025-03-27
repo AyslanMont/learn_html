@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Manipulando textos</title>
+        <meta name="viewport" content="width=device-width">
+        <style>
+            .vermelho {
+                background-color: red;
+                color: black;
+            }
+            .azul {
+                background-color: blue;
+                color: black;
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1>cabeçalho</h1>
+        <p>A diferença da tag <b>b</b> para <strong>strong</strong> é que strong é semântico. Significa que é mais forte.</p>
+        <p>A diferença da tag <del>del</del> para <s>del</s> é que del é semântico. Significa que é foi apagado.</p>
+        <p>A diferença da tag <ins>ins</ins> para <u>u</u> é que ins é semântico. Significa que é foi adicionado.</p>
+        <p>A diferença da tag <em>em</em> para <i>i</i> é que em é semântico. Significa que é foi dado um emfâse.</p>
+        <p><small>A tag small serve para deixar o texto mais pequeno.</small></p>
+        <p>A tag sup serve para elevar um número: 2<sup>2</sup></p>
+        <p>A tag sub serve para abaixar um número: H<sub>2</sub>O</p>
+        <p>A tag br <br> quebra a linha.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure ea incidunt saepe eum? Error facilis omnis reiciendis, <br>
+            <b><q cite="fonte da citação">Serve para fazer uma citação dentro de um paragrafo. O atributo cite faz referência a fonte.</q></b><br>
+        nulla sed animi quaerat provident iste quae deserunt a similique dolorum, ad sint!</p>
+        <blockquote cite="fonte">Serve para fazer um bloco de citação.</blockquote>
+        <hr>
+        <p> A tag hr serve para colocar uma linha.</p>
+        <hr>
+        <p>A tag code serve para dizer que o texto é um código: <code>print("Olá mundo")</code></p>
+        <pre> A tag pre preserva todos os espaçamentos do texto:
+
+            <code>
+                from flask import flask
+
+                app = Flask(__name__)
+                
+                @app.route('/')
+                def index():
+                    pass
+            </code>
+        </pre>
+
+        <p>A tag div e span são containers genéricos. A diferença é que div é em block e span em linha.</p>
+        <div class="vermelho"><b>Isso é uma div</b></div>
+        <span class="azul"><b>Isso é um span</b></span>
+
+    </body>
+</html>
